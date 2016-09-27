@@ -1,0 +1,31 @@
+{
+    "name": "pecee/spam-validator",
+    "description": "Extremely simple and lightweight PHP spam validator class to add an small additional layer of security.",
+    "keywords": [ "spam", "validation", "validator", "lightweight", "fast", "speed", "framework", "pecee" ],
+    "license": "MIT",
+    "homepage": "http://www.pecee.dk",
+    "support": {
+        "source": "https://bitbucket.org/sessingo/pecee-spamcheck"
+    },
+    "authors": [
+        {
+            "name": "Simon Sessingø",
+            "email": "simon.sessingoe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.5",
+        "phpunit/phpunit": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pecee\\": "src/Pecee/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
