@@ -23,7 +23,7 @@ Please store the list locally to avoid calling moinmo.in on each request.
 
 ## Methods
 
-##### setPathToSpamList($path)
+#### setPathToSpamList($path)
 
 Set path to local spam-list.
 
@@ -34,10 +34,25 @@ $service = new \Pecee\Service\SpamChecker();
 $this->service->setPathToSpamList('/path/to/spamlist.txt');
 ```
 
-##### setList($list)
+#### setList($list)
 
 Set the contents of the spam-list yourself.
 
+#### setText($text)
+
+Text you want to validate. We would recomment using the property on the `isSpam` method instead.
+
+#### getText()
+
+Returns validated text.
+
+#### downloadList()
+
+Refetch the list from the external source.
+
+## Credits
+
+moinmo's awesome job at creating a dictionary of spam-words.
 
 ## The MIT License (MIT)
 
