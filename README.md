@@ -4,6 +4,12 @@ Small lightweight class for providing an extremely simple layer of spam-security
 
 **Note:** this class will not prevent spam 100% and should only be used to add some additional security when validating the contents of your input-fields on your webste.
 
+## Installation
+
+Install this module by running the following composer command:
+
+```composer require pecee/spam-validator```
+
 ## Usage
 
 ```php
